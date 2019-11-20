@@ -37,7 +37,7 @@ jobs:
       Python36:
         python.version: '3.6'
 
-  steps:
+steps:
   - task: UsePythonVersion@0
     inputs:
       versionSpec: '$(python.version)'
